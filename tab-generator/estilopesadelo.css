@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #0c0c64;
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.form > input {
+    height: 40px;
+    width: 110px;
+    margin-bottom: 5px;
+    background: #6767b9;
+    outline: none;
+    border: none;
+    color: white;
+}
+.form > input::placeholder {
+    color: #e0e5f4;
+}
+.form > input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} 
+.form > button {
+    justify-content: center;
+    height: 30px;
+    width: 110px;
+    background: #7878ff;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: white;
+}
+.form > button:hover{
+    background-color: #321495;
+    transition: all .2s ease-in;
+}
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    height: auto;
+    width: auto;
+    min-width: 300px;
+    background-color: #200b65;
+    box-shadow: 1px 1px 40px black;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 14pt;
+}
+.result > p {
+    margin: 0;
+    padding: 2px;
+}
